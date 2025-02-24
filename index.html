@@ -1,0 +1,46 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kolade's Dice Game</title>
+  <link rel="stylesheet" href="css/style.css">
+<!--  <meta name="description" content="">-->
+
+<!--  <meta property="og:title" content="">-->
+<!--  <meta property="og:type" content="">-->
+<!--  <meta property="og:url" content="">-->
+<!--  <meta property="og:image" content="">-->
+<!--  <meta property="og:image:alt" content="">-->
+
+<!--  <link rel="icon" href="/favicon.ico" sizes="any">-->
+<!--  <link rel="icon" href="/icon.svg" type="image/svg+xml">-->
+<!--  <link rel="apple-touch-icon" href="icon.png">-->
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <!-- Add your site or application content here -->
+  <script src="js/app.js"></script>
+  <h1>Kolade's Dice Game</h1>
+    <p>Hello, this is Kolade's Dice Game.
+      The objective is to get exactly 10 points by either adding, subtracting, or multiplying your dice rolls.</p>
+    <div id="dice">
+      <h2>Dice</h2>
+      <p>Your Number: <input type="text" class="nums" id="diceNum" onload="load()" readonly> </p>
+      <p>Your Dice Number: <input type="text" class="nums" id="diceGenerator" readonly> </p>
+      <div id="diceDice">
+        <button onclick="add()">Add</button>
+        <button onclick="subtract()">Subtract</button>
+        <button onclick="multiply()">Multiply</button>
+      </div>
+      <button onclick="rollDice()" autofocus>Roll</button>
+    </div>
+</body>
+<footer>Kolade Idris &copy; 2025</footer>
+
+</html>

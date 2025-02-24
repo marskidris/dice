@@ -1,0 +1,39 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: #555555;
+}
+h1, h2 {
+  color: darkgoldenrod;
+  text-align: center;
+  font-size: xxx-large;
+}
+.game {
+
+}
+input {
+  text-align: right;
+  width: 15px;
+  background: darkgoldenrod;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  color: black;
+  font-size: large;
+  border-radius: 10px;
+  background-color: darkgoldenrod;
+}
+p {
+  font-size: larger;
+}
+footer {
+  padding-top: 10px;
+  text-align: center;
+}
